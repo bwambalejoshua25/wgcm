@@ -8,17 +8,21 @@ import {
   AiOutlineYoutube,
 } from "react-icons/ai";
 
-
 const Footer = () => {
   return (
-    <div className=" bg-black pt-20 lg:px-36 px-10 text-white">
+    <div className=" bg-black pt-10 lg:px-32 px-10 text-white">
       {/* div 1 */}
       <div className="flex flex-col lg:flex-row lg:justify-between mb-8 items-center">
         <div>
-          <h1 className="text-2xl">KEEP UP WITH WIGCM!</h1>
           <p className="text-base font-light italic">
-            Receive updates, news, and success stories straight to your inbox!
+            Walk in Grace Child Ministry Uganda Ltd ( WGCM ) is a registered
+            non-governmental organization (NGO) with the Uganda NGO Board
+            operating primarily in western Uganda and working towards empowering
+            the disabled and orphans to be self-reliant through vocational
+            skills training.
           </p>
+          <h1 className="text-2xl">KEEP UP WITH WIGCM</h1>
+
           <div className="py-4">
             <form className="gap-4 grid lg:flex ">
               <input
@@ -39,7 +43,7 @@ const Footer = () => {
         </div>
         <div className="button ">
           <Link href="#">
-            <button className="border-white border-2 p-4 hover:bg-green-600 rounded-full lg:rounded-none">
+            <button className="border-white border-2 p-3 hover:bg-green-600 rounded-full lg:rounded-none">
               DONATE TODAY
             </button>
           </Link>
@@ -54,14 +58,13 @@ const Footer = () => {
             Walk In Grace Child Ministries
           </h1>
           <p>
-            Uganda Address: P.O. Box 250, Maliba Road, Kisinga Town Council,
+            Uganda Address: P.O. Box 250, Nyamugasani Cell, Kisinga Town
+            Council,
           </p>
-          <p>Busongora North, Maliba Sub-county, Kasese, Uganda</p>
+          <p>Bukonzo East, Kasese district, Uganda</p>
 
-          {/* other address */}
-          <p>US Address: 5662 Calle Real #123, Goleta, CA, 93117</p>
-          <Link href="#">
-            <p>info@walkingracechildministriesuganda.org</p>
+          <Link href="walkingracechildministry@gmail.com">
+            <p>walkingracechildministry@gmail.com</p>
           </Link>
         </div>
       </div>
@@ -91,7 +94,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mt-2 lg:mt-0">
-          <p>WIGCM is a nonprofit organization.</p>
+          <p>©2019 - 2023: WGCM-Uganda, All Rights Reserved.</p>
+        </div>
+        <div className="mt-2 lg:mt-0">
+          <p>Created by Bwambale Joshua</p>
         </div>
       </div>
     </div>

@@ -23,6 +23,9 @@ module.exports = {
       top: {
         " 50%": "50%",
       },
+      backgroundImage: {
+        banner: "url('/ceo.jpg')",
+      },
       backgroundColor: {
         primary: "#F1F1F2",
         blur: "#030303",

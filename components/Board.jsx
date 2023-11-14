@@ -14,12 +14,12 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 });
 
 const options = {
-  margin: 20,
+  margin: 10,
   responsiveClass: true,
   nav: true,
-  dots: true,
+  dots: false,
   autoplay: true,
-  smartSpeed: 600,
+  smartSpeed: 400,
   navText: [
     "<i class='fa fa-angle-left'></i>",
     "<i class='fa fa-angle-right'></i>",
@@ -32,7 +32,7 @@ const options = {
       items: 1,
     },
     600: {
-      items: 3,
+      items: 2,
     },
     700: {
       items: 3,
@@ -45,7 +45,7 @@ const options = {
 
 const Slider = () => (
   <div className="">
-    <div className="gap-2">
+    <div className="gap-1">
       <div>
         <OwlCarousel
           className="owl-theme px-2"
@@ -58,21 +58,19 @@ const Slider = () => (
           {...options}
         >
           {/* <Slider 1 /> */}
-          <div className="relative w-full max-h-full h-80 md:h-[500px] ">
+          <div className="relative w-full max-h-full h-80 md:h-[500px]">
             <div
               className="absolute bg-no-repeat bg-cover w-full h-full "
-              style={{ backgroundImage: `url('tomatoes.jpg')` }}
+              style={{ backgroundImage: `url('ceo.jpg')` }}
             />
-            <div className="absolute  bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
+            <div className="absolute bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
             <Link href="/">
-              <div className="flex flex-col left-0 bottom-0 absolute bg-slate-800 bg-opacity-70">
+              <div className="flex flex-col left-0 text-center bottom-0 absolute bg-slate-800 bg-opacity-70 w-full">
                 <p className="text-orange-600 hover:text-orange-800  px-2 text-shadow font-semibold text-2xl">
-                  GREEN HOUSE FARMING
+                  MUMBERE BREAN
                 </p>
                 <div className="bg-slate-800 bg-opacity-50">
-                  <p className="px-2 mb-1 text-gray-200">
-                    We carry out farming to get food to cater for the orphans
-                  </p>
+                  <p className="px-2 mb-1 text-gray-200">CHAIRPERSON BOARD</p>
                 </div>
               </div>
             </Link>
@@ -81,17 +79,17 @@ const Slider = () => (
           <div className="relative w-full max-h-full h-80 md:h-[500px] ">
             <div
               className="absolute bg-no-repeat bg-cover w-full h-full "
-              style={{ backgroundImage: `url('children.jpg')` }}
+              style={{ backgroundImage: `url('ceo.jpg')` }}
             />
-            <div className="absolute  bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
+            <div className="absolute bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
             <Link href="/">
-              <div className="flex flex-col left-0 bottom-0 absolute bg-slate-800 bg-opacity-70">
+              <div className="flex flex-col text-center left-0 bottom-0 absolute bg-slate-800 bg-opacity-70 w-full">
                 <p className="text-orange-600 hover:text-orange-800  px-2 text-shadow font-semibold text-2xl">
-                  CAPENTRY
+                  BIIRA MATIAS
                 </p>
                 <div className="bg-slate-800 bg-opacity-50">
                   <p className="px-2 mb-1 text-gray-200">
-                    We make beds, stools, chairs for the orphans to sit on and feel comfort
+                    VICE CHAIRPERSON BOARD
                   </p>
                 </div>
               </div>
@@ -101,18 +99,16 @@ const Slider = () => (
           <div className="relative w-full max-h-full h-80 md:h-[500px] ">
             <div
               className="absolute bg-no-repeat bg-cover w-full h-full "
-              style={{ backgroundImage: `url('community.jpg')` }}
+              style={{ backgroundImage: `url('ceo.jpg')` }}
             />
-            <div className="absolute  bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
+            <div className="absolute bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
             <Link href="/">
-              <div className="flex flex-col left-0 bottom-0 absolute bg-slate-800 bg-opacity-70">
+              <div className="flex flex-col text-center left-0 bottom-0 absolute bg-slate-800 bg-opacity-70 w-full">
                 <p className="text-orange-600 hover:text-orange-800  px-2 text-shadow font-semibold text-2xl">
-                  COMMUNITY WORK
+                  BWAMBALE JOSHUA
                 </p>
                 <div className="bg-slate-800 bg-opacity-50">
-                  <p className="px-2 mb-1 text-gray-200">
-                    We are extremely grateful to all our donors and partners
-                  </p>
+                  <p className="px-2 mb-1 text-gray-200">BOARD TREASURER</p>
                 </div>
               </div>
             </Link>
@@ -121,18 +117,16 @@ const Slider = () => (
           <div className="relative w-full max-h-full h-80 md:h-[500px] ">
             <div
               className="absolute bg-no-repeat bg-cover w-full h-full "
-              style={{ backgroundImage: `url('disabled11.jpg')` }}
+              style={{ backgroundImage: `url('ceo.jpg')` }}
             />
-            <div className="absolute  bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
+            <div className="absolute bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
             <Link href="/">
-              <div className="flex flex-col left-0 bottom-0 absolute bg-slate-800 bg-opacity-70">
+              <div className="flex flex-col text-center left-0 bottom-0 absolute bg-slate-800 bg-opacity-70 w-full">
                 <p className="text-orange-600 hover:text-orange-800  px-2 text-shadow font-semibold text-2xl">
-                  FUNDRAISING
+                  BALUKU ASIMWE GERSHOM
                 </p>
                 <div className="bg-slate-800 bg-opacity-50">
-                  <p className="px-2 mb-1 text-gray-200">
-                    Make parties for the orphans, disabled and couselling
-                  </p>
+                  <p className="px-2 mb-1 text-gray-200">BOARD SECRETARY</p>
                 </div>
               </div>
             </Link>
@@ -141,17 +135,17 @@ const Slider = () => (
           <div className="relative w-full max-h-full h-80 md:h-[500px] ">
             <div
               className="absolute bg-no-repeat bg-cover w-full h-full "
-              style={{ backgroundImage: `url('community.jpg')` }}
+              style={{ backgroundImage: `url('ceo.jpg')` }}
             />
-            <div className="absolute  bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
+            <div className="absolute bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full max-h-full h-80 md:h-[500px]" />
             <Link href="/">
-              <div className="flex flex-col left-0 bottom-0 absolute bg-slate-800 bg-opacity-70">
+              <div className="flex flex-col left-0 text-center bottom-0 absolute bg-slate-800 bg-opacity-70 w-full">
                 <p className="text-orange-600 hover:text-orange-800  px-2 text-shadow font-semibold text-2xl">
-                  BE A CHANGEMAKER
+                  MUHINDO FORTUNATE
                 </p>
                 <div className="bg-slate-800 bg-opacity-50">
                   <p className="px-2 mb-1 text-gray-200">
-                    We are extremely grateful to all our donors and partners
+                    REPRESENTATIVE FORMER TRAINEES
                   </p>
                 </div>
               </div>

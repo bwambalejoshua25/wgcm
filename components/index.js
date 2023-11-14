@@ -7,4 +7,5 @@ export { default as FooterBanner } from "./FooterBanner";
 export { default as Jobs } from "./Jobs";
 export { default as Sells } from "./Sells";
 export { default as Slider } from "./Slider";
+export { default as Board } from "./Board";
 export { default as Resources } from "./Resources";
